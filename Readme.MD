@@ -10,3 +10,4 @@ Simple ASP.Net API Template
 * `curl https://localhost:5001/helloworld`
 
 ## GitVersion
+* Install with `choco install GitVersion.Portable` on windows or `brew install gitversion` using macos
