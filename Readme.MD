@@ -12,7 +12,7 @@ Simple ASP.Net API Template
 ## GitVersion
 * Install with `choco install GitVersion.Portable` on windows or `brew install gitversion` using macos
 * Tags on master define current version
-* All commits on master increase patch number
+* All commits on master increase patch (if not already increased) number and add appendix `+ <number of commits>`
 * Adding version to a dotnet build with 
 ```
 dotnet build /property:Version=`gitversion /output json /showvariable SemVer`
