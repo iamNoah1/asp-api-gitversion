@@ -13,6 +13,9 @@ Simple ASP.Net API Template
 * Install with `choco install GitVersion.Portable` on windows or `brew install gitversion` using macos
 * Tags on master define current version
 * All commits on master increase patch (if not already increased) number and add appendix `+ <number of commits>`
+
+![](./githubflow_feature-branch.png)
+
 * Adding version to a dotnet build with 
 ```
 dotnet build /property:Version=`gitversion /output json /showvariable SemVer`
