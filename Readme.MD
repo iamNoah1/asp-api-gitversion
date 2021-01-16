@@ -8,3 +8,5 @@ Simple ASP.Net API Template
 ## Call Endpoints
 * `curl http://localhost:5000/helloworld -L`
 * `curl https://localhost:5001/helloworld`
+
+## GitVersion
