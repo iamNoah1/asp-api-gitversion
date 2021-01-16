@@ -17,3 +17,5 @@ Simple ASP.Net API Template
 ```
 dotnet build /property:Version=`gitversion /output json /showvariable SemVer`
 ```
+* Version in einem Branch sieht so aus `<MasterSemVer>-<branchname>.AnzahlCommits`
+* 
