@@ -1,6 +1,6 @@
-# ASP.Net API Template
+# ASP.Net API Versioning using GitVersion
 
-Simple ASP.Net API Template 
+Simple ASP.Net API that uses GitVersion 
 
 ## Run 
 * `dotnet run`
