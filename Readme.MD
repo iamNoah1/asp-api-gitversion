@@ -1,6 +1,6 @@
 # ASP.Net API Versioning using GitVersion
 
-Simple ASP.Net API that uses GitVersion 
+Simple ASP.Net API that uses [GitVersion](https://gitversion.net) 
 
 ## Run 
 * `dotnet run`
