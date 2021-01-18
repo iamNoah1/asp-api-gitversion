@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Asp.Api.Template
+namespace Asp.Api.Versioning
 {
     public class Program
     {
