@@ -17,7 +17,7 @@ Simple ASP.Net API that uses GitVersion
 * All commits on master increase patch (if not already increased) number and add appendix `+ <number of commits>`
 * Feature branches have the following format: `SemVer-<branchname>.1+<number of commits>`
 * Major, Minor or Patch can be increased explicitly by adding `+semver: major`, `+semver: minor` or `+semver: patch` to a commit message
-* Creating a release branch (e.g. release/1.0) creates a brnach that has a bumped major version. Minor and Patch equal zero with an appendix of `rc.1+0+<number of commits>`  
+* Creating a release branch (e.g. release/1.0) creates a brnach that has a bumped major version. Minor and Patch equal zero with an appendix of `rc.1+0+<number of commits>`. Note that the version after `release/` specifies the version from where GitVersion will start to calculate the next version.
 
 ![](./githubflow_feature-branch.png)
 

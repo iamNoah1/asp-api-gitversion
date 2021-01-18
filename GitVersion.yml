@@ -1,6 +1,16 @@
 mode: ContinuousDelivery
 branches: 
+  master:
+    mode: ContinuousDelivery
+    tag: ''
+    increment: Patch
+    prevent-increment-of-merged-branch-version: true
+    track-merge-target: false
+    tracks-release-branches: false
+    is-release-branch: false
   release:
+    mode: ContinuousDelivery
+    regex: ^releases?[/-]
     tag: rc
     increment: Patch
     prevent-increment-of-merged-branch-version: true
